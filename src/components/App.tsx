@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useState } from 'react';
-import { getChat, getChats, getRoles } from './api/gpt.api';
+import { getChat, getChats, getRoles } from '../api/gpt.api';
 import { Dropdown } from 'primereact/dropdown';
 import { InputTextarea } from 'primereact/inputtextarea';
 import { FloatLabel } from 'primereact/floatlabel';
 import { Button } from 'primereact/button';
-import { Role } from './types/types';
+import { Role } from '../types/types';
 import { Card } from 'primereact/card';
 import { TabView, TabPanel } from 'primereact/tabview';
 import cls from './App.module.css';
