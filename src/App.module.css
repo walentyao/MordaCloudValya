@@ -1,0 +1,45 @@
+.app {
+  width: 800px;
+  margin: 0 auto;
+  height: inherit;
+}
+
+.panel {
+  margin-top: 10px;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: center;
+}
+
+.dropdowm {
+  width: 100%;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 100px;
+}
+
+.textareaWrapper {
+  margin-top: 20px;
+}
+
+.result {
+  margin-top: 20px;
+  background-color: #111827;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
